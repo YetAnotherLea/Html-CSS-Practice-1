@@ -3,7 +3,7 @@ body {
     position: absolute;
     margin-top: 100px;
 }
-
+/**Set h1 and h2 in another stylesheet**/
 h1 {
     font-size: 3em;
     font-family: Montserrat;

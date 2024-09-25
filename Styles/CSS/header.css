@@ -1,9 +1,10 @@
+/**TRY TO SET A MIN-WIDTH + CLEANUP THE CODE**/
 header {
     background-color: #FFF;
     position: fixed;
     top: 0;
     z-index: 100;
-
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,8 +46,7 @@ header p {
     width: 25px;
 }
 
-/**Hover**/
-
+/**   HOVER   **/
 header p:hover,
 #brand-logo:hover,
 #suspension-dots-container:hover {
