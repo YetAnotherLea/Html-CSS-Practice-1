@@ -1,0 +1,70 @@
+header {
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1;
+
+    flex-direction: row;
+
+    height: 90px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+#brand-logo {
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 10px;
+    transition: opacity 0.50s;
+}
+
+header p {
+    font-family: Montserrat Alternates;
+    margin-left: 20px;
+}
+
+#suspension-dots-container {
+    padding: 10px 12px;
+    border-radius: 30px;
+    margin-right: 20px;
+    transition: background-color 0.15s;
+}
+
+#suspension-dots {
+    width: 25px;
+}
+
+/**Hover**/
+
+header p:hover,
+#brand-logo:hover,
+#suspension-dots-container:hover {
+    cursor: pointer;
+}
+
+header p:hover {
+    font-weight: 500;
+}
+
+#brand-logo:hover {
+    opacity: 0.75;
+    transition: opacity 0.50s;
+}
+
+#suspension-dots-container:hover {
+    background-color: rgb(225, 225, 225);
+    transition: background-color 0.15s;
+}
+
+
