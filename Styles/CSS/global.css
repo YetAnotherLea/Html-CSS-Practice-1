@@ -1,24 +1,10 @@
 body {
     z-index: 1;
     position: absolute;
-    margin-top: 100px;
-}
-/**Set h1 and h2 in another stylesheet**/
-h1 {
-    font-size: 3em;
-    font-family: Montserrat;
-    font-weight: 500;
-    color: #FBD1B7;
+    margin-top: 150px;
+    background-color: #D3F6F3;
 }
 
-h2 {
-    font-size: 2em;
-}
-
-label {
-    font-size: 1.5em;
-}
-
-p {
+p, a {
     font-size: 1em;
 }

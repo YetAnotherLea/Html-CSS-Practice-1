@@ -17,6 +17,7 @@
         <link href="./Styles/CSS/background.css" rel="stylesheet">
         <link href="./Styles/CSS/form.css" rel="stylesheet">
         <link href="./Styles/CSS/footer.css" rel="stylesheet">
+        <link href="./Styles/CSS/main.css" rel="stylesheet">
     </head>
 
     <body>
@@ -32,16 +33,20 @@
 
         <main>
             <h1>Join the Glow Squad!</h1>
-            <h2>Sign up for exclusive skincare
-                and hair care tips, new product
-                launches, and special offers!
+            <h2>Sign up for exclusive hair and skin care tips, <br>
+                new product launches, and special offers!
             </h2>
             <section id="form">
-                <form> <!--ADD FORM-->
-                    <label>First Name</label>
-                    <label>Email</label>
-                    <label>Password</label>
-                        <img src="./Styles/Pictures/icons8-information-64.png">
+                <form action="./index.html" method="POST"> <!--ADD FORM-->
+                    <label>First Name</label> <br>
+                    <input type="text" name="first-name">
+                    <br>
+                    <label>Email</label> <br>
+                    <input type="email" name="email">
+                    <br>
+                    <label>Password</label> <br>
+                    <input type="password" name="password">
+                        <img id="information-icon" src="./Styles/Pictures/icons8-information-64.png">
                         <p>
                             To ensure the security of your account, 
                             please follow these guidelines when creating your password:<br>
@@ -71,9 +76,14 @@
                 </p>
             </section>
         </main>
+            
 
-        <footer>
-            <a>&#169; Copyrights</a>
+        <footer> <!--Update link if needed-->
+            <p>&#169; You can find the development page 
+                <a href="https://github.com/YetAnotherLea/Html-CSS-Practice-1/tree/master">here</a>.
+                <br> 
+                I don't own any of the media used on this page. 
+            </p>
         </footer>
     </body>
 </html>

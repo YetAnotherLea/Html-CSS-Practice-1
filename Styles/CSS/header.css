@@ -1,4 +1,4 @@
-/**TRY TO SET A MIN-WIDTH + CLEANUP THE CODE**/
+/**CLEANUP THE CODE**/
 header {
     background-color: #FFF;
     position: fixed;
@@ -8,10 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    flex: 1;
-
-    flex-direction: row;
+    width: 100vw;
 
     height: 90px;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
@@ -33,6 +30,7 @@ header {
 header p {
     font-family: Montserrat Alternates;
     margin-left: 20px;
+    transition: color 0.15s;
 }
 
 #suspension-dots-container {
@@ -54,7 +52,7 @@ header p:hover,
 }
 
 header p:hover {
-    font-weight: 500;
+    color: #FBD1B7;
 }
 
 #brand-logo:hover {
@@ -67,4 +65,13 @@ header p:hover {
     transition: background-color 0.15s;
 }
 
+/**   ACTIVE   **/
 
+header p:active {
+    opacity: 0.50;
+    font-weight: 500;
+}
+
+#suspension-dots-container:active {
+    opacity: 0.50;
+}
